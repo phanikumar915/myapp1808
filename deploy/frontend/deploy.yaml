@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: myappfe
-        image: phanikumar915/myapp1808-fe:1.0
+        image: phanikumar915/myappfrontend:1.0
         imagePullPolicy: Always
         ports:
         - containerPort: 80
